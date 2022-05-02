@@ -10,6 +10,11 @@ app-social{
 
 app-button-login{
     float: right;
-    margin-top: -72px;
+    margin-top: -74px;
     margin-right: 5px;
+}
+
+header{
+    border: 5px solid;
+    border-color: #141013;
 }
