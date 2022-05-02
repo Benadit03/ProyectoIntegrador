@@ -5,13 +5,17 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from "./component/header/HeaderComponent";
 import { SocialComponent } from './component/social/social.component';
 import { AboutMeComponent } from './component/about-me/about-me.component';
+import { ExperienceComponent } from './component/experience/experience.component';
+import { StudyComponent } from './component/study/study.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     SocialComponent,
-    AboutMeComponent
+    AboutMeComponent,
+    ExperienceComponent,
+    StudyComponent
   ],
   imports: [
     BrowserModule,

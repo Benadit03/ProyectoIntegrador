@@ -1,9 +1,9 @@
-h1{
-    color: #dae0ea;
+h3{
+    color: #71413b;
 }
 
 h2{
-    color: #dae0ea;
+    color: #71413b;
 }
 
 p{
@@ -12,17 +12,4 @@ p{
 
 html{
     background-color: #221c1a;
-}
-
-/*FOTO DE PROFILE*/
-#profile{
-    display: inline-block;
-    background: #71413b;
-    color: #bb7547;
-    padding: 10px 20px;
-    margin: 5px;
-    border: 5px solid;
-    border-radius: 100%;
-    border-color: #141013;
-    width: 200px;
 }

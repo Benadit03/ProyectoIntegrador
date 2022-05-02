@@ -8,30 +8,40 @@ header{
     background-color: #221c1a;
 }
 
-.button-login {
-    display: inline-block;
-    background: #793a80;
-    color: #dae0ea;
-    border: none;
-    padding: 10px 35px;
-    margin:5px;
-    border-radius: 5px;
-    cursor: pointer;
-    text-decoration: none;
-    font-size: 20px;
-    margin-top: 21px;
-    margin-left: -33px;
-    ;
+div.col{
+    align-self: center;
+}
+
+
+@media (min-width: 575px) {
+    app-social{
+        float: right;
+    }
+}
+
+div.col-xs-12 , div.col-sm-2, div.col-md-2, div.col-lg-2{
+    align-self: center;
 }
 
 .banner{
     width: 100%;
 }
 
-app-social{
-    margin-left: 110px;
+@media (max-width: 817px) {
+    #logo-ap{
+        width: 100px;
+    }
 }
 
-.logo-ap{
-    width: 150px;
+.button-login {
+    display: inline-block;
+    background: #71413b;
+    color: #dae0ea;
+    border: none;
+    padding: 10px 35px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 20px;
+    ;
 }

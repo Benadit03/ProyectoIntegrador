@@ -2,3 +2,13 @@
     background-color: #221c1a;
     padding: 10px;
 }
+
+#img-perfil{
+    display: inline-block;
+    background: #3b1725;
+    padding: 10px 20px;
+    margin: 5px;
+    border: 5px solid;
+    border-radius: 100%;
+    border-color: #141013;
+}

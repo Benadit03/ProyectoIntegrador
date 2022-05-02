@@ -1,0 +1,21 @@
+.row{
+    background-color: #221c1a;
+    padding: 20px;
+}
+
+div{
+    background-color: #221c1a;
+    align-items: center;
+    padding: 20px;
+}
+
+#img-emp-logo{
+    display: inline-block;
+    background: #3b1725;
+    margin: 5px;
+    height: 100px;
+}
+
+h2, h3{
+    display: inline;
+}
