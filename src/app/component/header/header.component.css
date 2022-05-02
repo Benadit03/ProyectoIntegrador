@@ -2,19 +2,36 @@ div{
     background-color: #221c1a;
 }
 
-app-social{
-    float: right;
-    margin-top: -75px;
-    margin-right: 130px;
-}
-
-app-button-login{
-    float: right;
-    margin-top: -74px;
-    margin-right: 5px;
-}
-
 header{
     border: 5px solid;
     border-color: #141013;
+    background-color: #221c1a;
+}
+
+.button-login {
+    display: inline-block;
+    background: #793a80;
+    color: #dae0ea;
+    border: none;
+    padding: 10px 35px;
+    margin:5px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 21px;
+    margin-left: -33px;
+    ;
+}
+
+.banner{
+    width: 100%;
+}
+
+app-social{
+    margin-left: 110px;
+}
+
+.logo-ap{
+    width: 150px;
 }
