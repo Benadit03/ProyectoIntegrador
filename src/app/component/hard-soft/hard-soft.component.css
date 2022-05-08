@@ -1,9 +1,10 @@
-div{
+div {
     background-color: #221c1a;
-    align-items: center;
     padding: 20px;
 }
 
-h3{
+div.col-ls-12, div.col-md-6, div.col-lg-6, div.col-xl-6 {
     text-align: center;
+    align-items: center;
+    padding: 10px
 }

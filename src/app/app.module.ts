@@ -12,6 +12,7 @@ import { HardSoftComponent } from './component/hard-soft/hard-soft.component';
 // Import ng-circle-progress
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { ProyectComponent } from './component/proyect/proyect.component';
+import { FooterComponent } from './component/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { ProyectComponent } from './component/proyect/proyect.component';
     StudyComponent,
     HardSoftComponent,
     ProyectComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
