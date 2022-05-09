@@ -2,8 +2,8 @@
   "name": "proyecto-integrador",
   "version": "0.0.0",
   "engines": {
-    "node": "16.13.1",
-    "npm": "8.7.0"
+    "npm": "5.6.0",
+    "node": "8.10.0"
   },
   "scripts": {
     "ng": "ng",
