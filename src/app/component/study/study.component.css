@@ -1,6 +1,6 @@
 .row{
     background-color: #221c1a;
-    padding: 20px;
+    padding: 10px;
 }
 
 div{
@@ -13,13 +13,11 @@ div{
     display: inline-block;
     background: #3b1725;
     margin: 5px;
-    padding: 10px 10px;
+    height: 100px;
 }
 
-@media (max-width: 991px) {
-    #img-inst-logo{
-        width: 200px;
-    }
+.row{
+    padding: 20px;
 }
 
 h2, h3{
