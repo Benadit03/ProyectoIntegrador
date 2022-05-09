@@ -13,7 +13,14 @@ div{
     display: inline-block;
     background: #3b1725;
     margin: 5px;
-    height: 100px;
+    padding: 10px 10px;
+}
+
+
+@media (max-width: 991px) {
+    #img-emp-logo{
+        width: 200px;
+    }
 }
 
 h2, h3{
