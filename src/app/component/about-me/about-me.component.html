@@ -2,19 +2,17 @@
     <div class="row">
 
         <div class="col">
-            <img src="../../../assets/profile.png" alt="profile" class="img-fluid" id="img-perfil">
+            <img [src]="aboutmeData.profileImage" alt="profile" class="img-fluid" id="img-perfil">
         </div>
 
         <div class="col">
-            <h2>Nombre Apellido</h2>
-            <p>Título</p>
+            <h2>{{aboutmeData.name}}</h2>
+            <p>{{aboutmeData.tittle}}</p>
         </div>
         <div class="col-xs-12 col-sm-6  col-md-6  col-lg-6">
             <h2>Presentación</h2>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, laudantium incidunt beatae et porro 
-                consequuntur quas assumenda cumque autem sed rerum recusandae, fugit perspiciatis explicabo accusantium
-                earum nostrum. Natus, repudiandae.
+                {{aboutmeData.presentation}}
             </p>
         </div>
     </div>

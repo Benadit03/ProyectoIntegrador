@@ -4,80 +4,20 @@
 
 <div class="container-fluid">
 
-    <div class="row">
-
-        <div class="col-lg-2">
-            <img src="../../../assets/logoinst.png" alt="logo instituto" class="img-fluid" id="img-inst-logo">
-        </div>
-
-        <div class="cols-12 col-sm-10  col-md-10  col-lg-10">
-            <ul>
-                <li>
-                    <h2>Estudio 1</h2>
-                </li>
-
-                <li>
-                    <h3>(Desde)</h3> <h3> - </h3> <h3>(Hasta)</h3>
-                </li>
-
-                <li>
-                    <h3> (</h3> <h3>(años)</h3><h3> años </h3> <h3>y </h3> <h3>(meses)</h3><h3> Meses</h3> <h3>)</h3>
-                </li><br>
-
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor obcaecati accusamus veritatis mollitia laborum ipsam, voluptates expedita architecto culpa iusto dolorem beatae quia ipsa placeat laudantium eaque velit quae recusandae.
-                </p>
-            </ul>
-        </div>
-
-        <div class="col-lg-2">
-            <img src="../../../assets/logoinst.png" alt="logo instituto" class="img-fluid" id="img-inst-logo">
-        </div>
-
-        <div class="cols-12 col-sm-10  col-md-10  col-lg-10">
-            <ul>
-                <li>
-                    <h2>Estudio 2</h2>
-                </li>
-
-                <li>
-                    <h3>(Desde)</h3> <h3> - </h3> <h3>(Hasta)</h3>
-                </li>
-
-                <li>
-                    <h3> (</h3> <h3>(años)</h3><h3> años </h3> <h3>y </h3> <h3>(meses)</h3><h3> Meses</h3> <h3>)</h3>
-                </li><br>
-
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor obcaecati accusamus veritatis mollitia laborum ipsam, voluptates expedita architecto culpa iusto dolorem beatae quia ipsa placeat laudantium eaque velit quae recusandae.
-                </p>
-            </ul>
-        </div>
-
-        <div class="col-lg-2">
-            <img src="../../../assets/logoinst.png" alt="logo instituto" class="img-fluid" id="img-inst-logo">
-        </div>
-
-        <div class="cols-12 col-sm-10  col-md-10  col-lg-10">
-            <ul>
-                <li>
-                    <h2>Estudio 3</h2>
-                </li>
-
-                <li>
-                    <h3>(Desde)</h3> <h3> - </h3> <h3>(Hasta)</h3>
-                </li>
-
-                <li>
-                    <h3> (</h3> <h3>(años)</h3><h3> años </h3> <h3>y </h3> <h3>(meses)</h3><h3> Meses</h3> <h3>)</h3>
-                </li><br>
-
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor obcaecati accusamus veritatis mollitia laborum ipsam, voluptates expedita architecto culpa iusto dolorem beatae quia ipsa placeat laudantium eaque velit quae recusandae.
-                </p>
-            </ul>
-        </div>
-
-    </div>
+    <ul>
+        <li *ngFor="let study of studyList">
+            <div class="row">
+                <div class="cols-12 col-sm-2  col-md-2  col-lg-2">
+                    <img [src]="study.logoinst" alt="logo empresa" class="img-fluid" id="img-emp-logo">
+                </div>
+                <div class="cols-12 col-sm-10  col-md-10  col-lg-10">
+                    <h2>{{study.career}}</h2>
+                    <div></div>
+                    <h3>{{study.from}}</h3> <h3> - </h3> <h3>{{study.to}}</h3>
+                    <p>{{study.studyInfo}}</p>
+                </div>
+            </div>
+        </li>
+    </ul>
     
-</div>
+    </div>

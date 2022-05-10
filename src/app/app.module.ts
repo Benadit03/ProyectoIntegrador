@@ -8,6 +8,7 @@ import { AboutMeComponent } from './component/about-me/about-me.component';
 import { ExperienceComponent } from './component/experience/experience.component';
 import { StudyComponent } from './component/study/study.component';
 import { HardSoftComponent } from './component/hard-soft/hard-soft.component';
+import { HttpClientModule } from '@angular/common/http';
  
 // Import ng-circle-progress
 import { NgCircleProgressModule } from 'ng-circle-progress';
@@ -31,6 +32,7 @@ import { FooterComponent } from './component/footer/footer.component';
     AppRoutingModule,
     BrowserModule,
     NgCircleProgressModule,
+    HttpClientModule,
  
     // Specify ng-circle-progress as an import
     NgCircleProgressModule.forRoot({

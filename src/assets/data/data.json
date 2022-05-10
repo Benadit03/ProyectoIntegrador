@@ -1,0 +1,58 @@
+{
+    "profileImage": "../../../assets/profile.png",
+    "name": "UWU",
+    "tittle": "UWUctor",
+    "presentation": "What you know about rolling down in the deep? When your brain goes numb you can call that mental freeze When these people talk too much, put that shit in slow motion, yeah I feel like an astronaut in the ocean, ay",
+
+    "banner": "../../../assets/banner.png",
+
+    "experience": [
+        {
+            "logoempr": "../../../assets/logoempr.png",
+            "job":"OWOCTOR SUPREMO",
+            "business":"hAWArd",
+            "from": "1998",
+            "to": "2077",
+            "years": "60",
+            "months": "3",
+            "jobInfo": "To the town of Agua Fria rode a stranger one fine day Hardly spoke to folks around him, didn't have too much to say No one dared to ask his business, no one dared to make a slip For the stranger there among them had a big iron on his hip Big iron on his hip"
+        },
+
+        {
+            "logoempr": "../../../assets/logoempr.png",
+            "job":"Trabajo 2",
+            "business":"empresa",
+            "from": "(desde)",
+            "to": "(hasta)",
+            "years": "(years)",
+            "months": "(months)",
+            "jobInfo": "To the town of Agua Fria rode a stranger one fine day Hardly spoke to folks around him, didn't have too much to say No one dared to ask his business, no one dared to make a slip For the stranger there among them had a big iron on his hip Big iron on his hip"
+        }
+    ],
+
+    "study": [
+        {
+            "logoinst": "../../../assets/logoinst.png",
+            "career":"CENTIFICO",
+            "from": "2008",
+            "to": "2020",
+            "studyInfo": "Oh, I bid farewell to the port and the land And I paddle away from brave England's white sands To search for my long ago forgotten friends To search for the place I hear all sailors end"
+        },
+
+        {
+            "logoinst": "../../../assets/logoinst.png",
+            "career":"study 2",
+            "from": "(desde)",
+            "to": "(hasta)",
+            "studyInfo": "Oh, I bid farewell to the port and the land And I paddle away from brave England's white sands To search for my long ago forgotten friends To search for the place I hear all sailors end"
+        }
+    ],
+
+    "instagramLink": "https://www.instagram.com/",
+    "gmailLink": "https://mail.google.com/",
+    "facebookLink": "https://www.facebook.com/",
+    "linkedinLink": "https://ar.linkedin.com/",
+    "twitterLink": "https://twitter.com/",
+    "githubLink": "https://github.com/"
+    
+}
