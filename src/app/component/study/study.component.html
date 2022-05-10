@@ -8,10 +8,11 @@
         <li *ngFor="let study of studyList">
             <div class="row">
                 <div class="cols-12 col-sm-2  col-md-2  col-lg-2">
-                    <img [src]="study.logoinst" alt="logo empresa" class="img-fluid" id="img-emp-logo">
+                    <img [src]="study.logoInst" alt="logo instituto" class="img-fluid" id="img-inst-logo">
                 </div>
                 <div class="cols-12 col-sm-10  col-md-10  col-lg-10">
-                    <h2>{{study.career}}</h2>
+                    <h2>{{study.career}}</h2><div></div>
+                    <h3>{{study.inst}}</h3>
                     <div></div>
                     <h3>{{study.from}}</h3> <h3> - </h3> <h3>{{study.to}}</h3>
                     <p>{{study.studyInfo}}</p>
