@@ -3,52 +3,24 @@
 </div>
 
 <div class="container-fluid">
-    
-    <div class="row">
+    <ul>
+        <li *ngFor="let skill of skillList">
+            <div class="row">
+                <div class="col-ls-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4">
+                    <h3>{{skill.skill}}</h3>
 
-        <div class="col-ls-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4">
-            <h3>Skill 1</h3>
-
-            <circle-progress
-            [percent]="36"
-            [radius]="100"
-            [outerStrokeWidth]="16"
-            [innerStrokeWidth]="8"
-            [outerStrokeColor]="'#793a80'"
-            [innerStrokeColor]="'#403353'"
-            [animation]="true"
-            [animationDuration]="300"
-            ></circle-progress>
-        </div>
-        
-        <div class="col-ls-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4">
-            <h3>Skill 2</h3>
-
-            <circle-progress
-            [percent]="85"
-            [radius]="100"
-            [outerStrokeWidth]="16"
-            [innerStrokeWidth]="8"
-            [outerStrokeColor]="'#793a80'"
-            [innerStrokeColor]="'#403353'"
-            [animation]="true"
-            [animationDuration]="300"
-            ></circle-progress>
-        </div>
-
-        <div class="col-ls-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4">
-            <h3>Skill 3</h3>
-
-            <circle-progress
-            [percent]="51"
-            [radius]="100"
-            [outerStrokeWidth]="16"
-            [innerStrokeWidth]="8"
-            [outerStrokeColor]="'#793a80'"
-            [innerStrokeColor]="'#403353'"
-            [animation]="true"
-            [animationDuration]="300"
-            ></circle-progress>
-        </div>
-    </div>
+                    <circle-progress
+                        [percent]="skill.progress"
+                        [radius]="100"
+                        [outerStrokeWidth]="16"
+                        [innerStrokeWidth]="8"
+                        [outerStrokeColor]="'#793a80'"
+                        [innerStrokeColor]="'#403353'"
+                        [animation]="true"
+                        [animationDuration]="300"
+                    ></circle-progress>
+                </div>
+            </div>
+        </li>
+    </ul>
 </div>

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { PortafolioService } from 'src/app/service/portafolio.service';
 
 @Component({
   selector: 'app-hard-soft',
@@ -8,10 +9,13 @@ import { Component, OnInit } from '@angular/core';
   
 
 export class HardSoftComponent implements OnInit {
+  skillList: any;
 
-  constructor() { }
+  constructor(private datosPortafolio:PortafolioService) { }
 
   ngOnInit(): void {
+    this.datosPortafolio.obtenerDatos().subscribe(data => {
+      this.skillList = data.skill;
+    });
   }
-
 }
