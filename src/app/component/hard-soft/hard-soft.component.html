@@ -1,15 +1,13 @@
 <div>
     <h2>Hard & Soft Skills</h2>
 </div>
-
 <div class="container-fluid">
-    <ul>
-        <li *ngFor="let skill of skillList">
-            <div class="row">
-                <div class="col-ls-12 col-md-6 col-lg-6 col-xl-4 col-xxl-4">
-                    <h3>{{skill.skill}}</h3>
-
-                    <circle-progress
+    <div class="row">
+        <div class="cols-12 col-sm-6 col-md-6 col-lg-6 col-xxl-4" *ngFor="let skill of skillList">
+            <ul>
+                <li>
+                        <h3>{{skill.skill}}</h3>
+                        <circle-progress
                         [percent]="skill.progress"
                         [radius]="100"
                         [outerStrokeWidth]="16"
@@ -18,9 +16,9 @@
                         [innerStrokeColor]="'#403353'"
                         [animation]="true"
                         [animationDuration]="300"
-                    ></circle-progress>
-                </div>
-            </div>
-        </li>
-    </ul>
+                        ></circle-progress>
+                </li>
+            </ul>
+        </div>
+    </div>
 </div>

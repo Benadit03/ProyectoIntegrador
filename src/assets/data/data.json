@@ -80,6 +80,16 @@
         },
 
         {
+            "skill": "HTML",
+            "progress":"90"
+        },
+
+        {
+            "skill": "HTML",
+            "progress":"90"
+        },
+
+        {
             "skill": "JSON",
             "progress":"40"
         }
