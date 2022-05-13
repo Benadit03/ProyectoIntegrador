@@ -3,8 +3,6 @@ div {
     padding: 20px;
 }
 
-div.col-ls-12, div.col-md-6, div.col-lg-6, div.col-xl-6 {
+li{
     text-align: center;
-    align-items: center;
-    padding: 10px
 }
