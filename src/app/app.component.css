@@ -1,3 +1,7 @@
 div{
     background-color: #221c1a;
 }
+
+div.col-lg-8{
+    margin-top: 50px;
+}

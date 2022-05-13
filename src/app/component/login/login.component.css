@@ -1,0 +1,16 @@
+.button-submit {
+    display: inline-block;
+    background: #71413b;
+    color: #dae0ea;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 20px;
+    ;
+}
+
+h2{
+    margin-bottom: 25px;
+}

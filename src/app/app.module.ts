@@ -14,6 +14,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { ProyectComponent } from './component/proyect/proyect.component';
 import { FooterComponent } from './component/footer/footer.component';
+import { LoginComponent } from './component/login/login.component';
+import { PortafolioComponent } from './component/portafolio/portafolio.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +28,8 @@ import { FooterComponent } from './component/footer/footer.component';
     HardSoftComponent,
     ProyectComponent,
     FooterComponent,
+    LoginComponent,
+    PortafolioComponent,
   ],
   imports: [
     BrowserModule,
