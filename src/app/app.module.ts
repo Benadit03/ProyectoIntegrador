@@ -16,6 +16,7 @@ import { ProyectComponent } from './component/proyect/proyect.component';
 import { FooterComponent } from './component/footer/footer.component';
 import { LoginComponent } from './component/login/login.component';
 import { PortafolioComponent } from './component/portafolio/portafolio.component';
+import { Pagina404Component } from './component/pagina404/pagina404.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { PortafolioComponent } from './component/portafolio/portafolio.component
     FooterComponent,
     LoginComponent,
     PortafolioComponent,
+    Pagina404Component,
   ],
   imports: [
     BrowserModule,
